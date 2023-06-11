@@ -1,0 +1,29 @@
+{
+    "PlayerBehaviour": {
+        "checkpoints": [
+            {
+                "steps": 27664,
+                "file_path": "results/GameLevelReached8/PlayerBehaviour/PlayerBehaviour-27664.onnx",
+                "reward": null,
+                "creation_time": 1686394304.8171258,
+                "auxillary_file_paths": [
+                    "results/GameLevelReached8/PlayerBehaviour/PlayerBehaviour-27664.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 27664,
+            "file_path": "results/GameLevelReached8/PlayerBehaviour.onnx",
+            "reward": null,
+            "creation_time": 1686394304.8171258,
+            "auxillary_file_paths": [
+                "results/GameLevelReached8/PlayerBehaviour/PlayerBehaviour-27664.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "1.11.0"
+    }
+}

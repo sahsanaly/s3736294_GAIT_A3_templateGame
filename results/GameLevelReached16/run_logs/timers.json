@@ -1,0 +1,42 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1686401533",
+        "python_version": "3.9.11 (main, Mar 29 2022, 14:04:42) \n[Clang 12.0.0 ]",
+        "command_line_arguments": "/opt/anaconda3/envs/assignment3/bin/mlagents-learn config/roguelike.yaml --run-id=GameLevelReached16 --force",
+        "mlagents_version": "0.30.0",
+        "mlagents_envs_version": "0.30.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "1.11.0",
+        "numpy_version": "1.21.2",
+        "end_time_seconds": "1686401595"
+    },
+    "total": 62.872343208000004,
+    "count": 1,
+    "self": 0.13547912500000336,
+    "children": {
+        "run_training.setup": {
+            "total": 0.0339990830000001,
+            "count": 1,
+            "self": 0.0339990830000001
+        },
+        "TrainerController.start_learning": {
+            "total": 62.702865,
+            "count": 1,
+            "self": 0.0026076670000136914,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 62.695752332999994,
+                    "count": 1,
+                    "self": 62.695752332999994
+                },
+                "TrainerController._save_models": {
+                    "total": 0.004504999999994652,
+                    "count": 1,
+                    "self": 0.004504999999994652
+                }
+            }
+        }
+    }
+}

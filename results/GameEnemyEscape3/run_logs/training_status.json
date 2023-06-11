@@ -1,0 +1,29 @@
+{
+    "PlayerBehaviour": {
+        "checkpoints": [
+            {
+                "steps": 86059,
+                "file_path": "results/GameEnemyEscape3/PlayerBehaviour/PlayerBehaviour-86059.onnx",
+                "reward": 7.214285790920258,
+                "creation_time": 1686405738.134149,
+                "auxillary_file_paths": [
+                    "results/GameEnemyEscape3/PlayerBehaviour/PlayerBehaviour-86059.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 86059,
+            "file_path": "results/GameEnemyEscape3/PlayerBehaviour.onnx",
+            "reward": 7.214285790920258,
+            "creation_time": 1686405738.134149,
+            "auxillary_file_paths": [
+                "results/GameEnemyEscape3/PlayerBehaviour/PlayerBehaviour-86059.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "1.11.0"
+    }
+}
