@@ -52,6 +52,7 @@ namespace Completed
         public void HandleFoundFood(int food)
         {
             // TODO: Change the reward below as appropriate.
+            //test github
             if (food < 30){
                 AddReward(foodCriticalReward);
             }
